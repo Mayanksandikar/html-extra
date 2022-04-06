@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html6</title>
+    <style>
+       body {
+        background-color: yellow;
+        }
+        .main{
+            width: 700px;
+            height: 400px;
+            border: 2px solid yellow;
+            display: flex;
+            color: white;
+        }
+        .margin{
+            width: 200px;
+            height: 200px;
+            margin: 50px;
+            background-color: yellowgreen;
+        }
+        .padding{
+            width: 200px;
+            height: 200px;
+            padding: 20px;
+            background-color: blue;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .box{
+            width: 30%;
+            height: 200px;
+            border: 2px solid red;
+            margin: 2px;
+        }
+        
+        .box1{
+            background-color: rgb(50, 236, 196);
+        }
+        .box2{
+            background-color: rgb(91, 95, 9);
+        
+        }
+        .box3{
+            background-color: rgb(34, 155, 10);
+        }
+        .box4{
+            background-color: rgb(191, 173, 228);
+            width: 400px;
+        }
+        .box5{
+            background-color: rgb(226, 141, 43);
+        }
+        .box6{
+            background-color: rgb(192, 156, 226);
+        }
+        .box7{
+            background-color: rgba(57, 74, 230, 0.459);
+        }
+        .box8{
+            background-color: rgb(243, 239, 3);
+        }
+        .box9{
+            background-color: rgb(216, 54, 75);
+        }
+        .box10{
+            background-color: rgb(198, 22, 22);
+        }
+        
+        /* for question no 3 */
+        .external{
+            color: dodgerblue;
+        }
+        .hello2{
+            width:fit-content;
+            color: blueviolet;
+            margin: 5px 10px 10px 20px;
+            padding: 20px 10px 10px 5px;
+            border: 5px solid red;
+            border-radius: 20px;
+        
+        }
+    </style>
+
+</head>
+<body>
+    <h1></h1> Revise all the concepts</h1>
+     <ol>
+         <li>
+             <h3>Create Unordered List and Ordered List?</h3>
+            
+             <strong>Unordered List</strong>
+             <ul>
+                 <li>One</li>
+                 <li>Two</li>
+                 <li>Three</li>
+                 <li>Four</li>
+                 <li>Five</li>
+             </ul>
+             <strong>Ordered List</strong>
+             <ol>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+                <li>Five</li>
+             </ol>
+        </li>
+        <li>
+            <h3>Create user form accepting name, age, contact and address?</h3>
+        
+            <strong>Form</strong>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name"><br><br>
+                <label for="age">Age</label>
+                <input type="text" name="age" id="age" placeholder="Enter your age"><br><br>
+                <label for="contact">Contact</label>
+                <input type="number" name="contact" id="contact" placeholder="Enter your number"><br><br>
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" placeholder="Enter your address"><br><br>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </li>
+        <li>
+            <h3>Create radio button in selecting Male, Female and create checkbox for selecting options as React HTML CSS JS Node?</h3>
+       
+            <form action="">
+                <strong>Radio Buttons</strong>
+            <h4>Select your gender</h4>
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="gender">Male</label><br><br>
+            <input type="radio" name="gender" id="gender" value="female">
+            <label for="gender">Female</label><br><br>
+            <strong>Checkbox</strong>
+            <h4>Select your courses</h4>
+            <input type="checkbox" name="course" id="react" value="react">
+            <label for="react">c</label><br><br>
+            <input type="checkbox" name="course" id="html" value="html">
+            <label for="html">c++</label><br><br>
+            <input type="checkbox" name="course" id="css" value="css">
+            <label for="css">java</label><br><br>
+            <input type="checkbox" name="course" id="js" value="js">
+            <label for="js">python</label><br><br>
+            <input type="checkbox" name="course" id="node" value="node">
+            <label for="node">html</label><br><br>
+            <input type="submit" name="submit" id="submit">
+            </form>
+        </li>
+        <li>
+            <h3>Explain different types of CSS?</h3>
+        
+            <a href="html3.html">all types are shown in here</a>
+        </li>
+        <li>
+            <h3>Create an example to explain the difference between margin and padding</h3>
+    
+            <div class="main">
+                <div class="margin">
+                     <p>Margin = 50px</p>
+                </div>
+                <div class="padding">
+                      <p>Padding = 20px</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <h3>By using flex , arranges 10 boxes. three boxes should be in a row and page should be scrollable</h3>
+       
+             <strong>Flex</strong><br><br>
+             <div class="container">
+                 <div class="box box1">
+                     
+                 </div>
+                 <div class="box box2">
+
+                 </div>
+                 <div class="box box3">
+
+                 </div>
+                 <div class="box box4">
+
+                 </div>
+                 <div class="box box5">
+
+                 </div>
+                 <div class="box box6">
+
+                 </div>
+                 <div class="box box7">
+
+                 </div>
+                 <div class="box box8">
+
+                 </div>
+                 <div class="box box9">
+
+                 </div>
+                 <div class="box box10">
+
+                 </div>
+             </div>
+        </li>
+     </ol>
+</body>
+</html>
