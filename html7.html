@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html7</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 100px;
+            background-color: darkkhaki;
+            position: static;
+            top: 200px;
+            left: 200px;
+        }
+        .box1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: relative;
+            top: 30px;
+            left: 200px;
+        }
+        .box2{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+        .main{
+            height: 400px;
+            width: 400px;
+            background-color: rebeccapurple;
+           position: relative;
+        }
+    </style>
+</head>
+<body>
+    <h1>position </h1>
+    <h2>position static</h2>
+    <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page: </p>
+
+    <div class="box"></div>
+
+    <h2>relative</h2>
+    <p>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+
+    </p>
+    <div class="box1">
+        relative box
+    </div><br>
+    <div class="main">
+    <h2>absolute</h2>
+    <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</p>
+    relative box
+    <div class="box2">absolute box</div>
+</div>
+    
+</body>
+</html>
